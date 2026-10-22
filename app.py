@@ -21,7 +21,7 @@ if st.button("Analyze Text"):
             )
 
             response = client.models.generate_content(
-                model="gemini-2.5-flash",
+                model="gemini-3.8-flash",
                 contents=(
                     "Analyze the following text. Identify its sentiment, "
                     "main topic, and a brief summary:\n\n" + text
