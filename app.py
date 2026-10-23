@@ -24,7 +24,7 @@ if st.button("Analyze Text"):
         try:
             with st.spinner("Analyzing text..."):
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model="gemini-3.8-flash",
                     contents=(
                         "Classify the sentiment of the following text as "
                         "Positive, Negative, or Neutral. "
